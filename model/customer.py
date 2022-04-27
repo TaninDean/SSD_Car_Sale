@@ -11,7 +11,7 @@ class custoemr(Base):
         car_id = the id of cat that customer buy
     """
     _tablename_ = 'customer'
-    id = Column(Integer, primary_ley=True)
+    id = Column(Integer, primary_ley=True, autoincrement=True)
     first_name = Column(String(25), nullable=False)
     last_name = Column(String(25), nullable=False)
     car_id = Column(Integer, ForeignKey('car.id'))

@@ -13,7 +13,7 @@ class Car(Base):
         price(String) = The price of car
     """
     _tablename_ = 'car_list'
-    id = Column(Integer, primary_key=True)
+    id = Column(Integer, primary_key=True, autoincrement=True)
     name = Column(String(25), nullable=False)
     model = Column(String(25), nullable=False)
     price = Column(Integer, nullable=False)
