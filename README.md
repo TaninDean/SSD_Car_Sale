@@ -19,3 +19,6 @@ sqlite3 db.sqlite3
 
 # DOMAIN MODEL
 ![image](https://user-images.githubusercontent.com/70503441/165564786-7f81a688-37ef-4e99-b1e5-d8a5ba79d3d9.png)
+
+# CLASS DIAGRAM
+![image](https://user-images.githubusercontent.com/70503441/165696190-1d4157fd-1a64-462e-b818-02a297fbaf51.png)
