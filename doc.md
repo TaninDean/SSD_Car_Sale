@@ -103,7 +103,7 @@ curl -v -X GET https://api.polls/get/car/ \
 buy car
 
 ```
-curl -v -X POST https://api.polls/api/v1/buy/ \
+curl -v -X POST https://api.polls/api/buy/ \
 -H 'Content-Type: application/json' \
 -d '{
     "car_id": "1",
@@ -112,24 +112,27 @@ curl -v -X POST https://api.polls/api/v1/buy/ \
 }'
 ```
 
-sign in
+create
 
 ```
-curl -v -X POST https://api.polls/api/v1/sign/ \
+curl -v -X POST https://api.polls/api/create/ \
 -H 'Content-Type: application/json' \
 -d '{
-    "userId": user1,
-    "password": "helloworld"
+    "band": BENZ,
+    "model": "C43"
+    "price": 20000
 }'
 ```
 
 update trans
+
 ```
-curl -v -X POST https://api.polls/api/v1/update/ \
+curl -v -X POST https://api.polls/api/update/ \
 -H 'Content-Type: application/json' \
 -d '{
     "car_id": 1
-    "brand": "BMW"
+    "band": "BMW"
     "Model": "X1"
+    "Price": 10000
 }'
 ```
