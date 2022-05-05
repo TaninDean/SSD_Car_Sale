@@ -80,7 +80,7 @@ The error will response in body with error occurs.
 
 ### GET
 
-get car
+get car by id
 
 ```
 curl -v -X GET https://api.polls/get/{car_id}/ \
@@ -90,6 +90,12 @@ get car by name
 
 ```
 curl -v -X GET https://api.polls/get/car/{name} \
+```
+
+get all list of car
+
+```
+curl -v -X GET https://api.polls/get/car/ \
 ```
 
 ### POST
@@ -114,5 +120,16 @@ curl -v -X POST https://api.polls/api/v1/sign/ \
 -d '{
     "userId": user1,
     "password": "helloworld"
+}'
+```
+
+update trans
+```
+curl -v -X POST https://api.polls/api/v1/update/ \
+-H 'Content-Type: application/json' \
+-d '{
+    "car_id": 1
+    "brand": "BMW"
+    "Model": "X1"
 }'
 ```
