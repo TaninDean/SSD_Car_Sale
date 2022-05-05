@@ -17,6 +17,9 @@ sqlite3 db.sqlite3
 .import data/customer.csv customer
 ```
 
+## Web Service API
+- [Document](https://tanindean.github.io/SSD_Car_Sale_BackEnd/#/doc)
+
 # DOMAIN MODEL
 ![image](https://user-images.githubusercontent.com/70503441/165564786-7f81a688-37ef-4e99-b1e5-d8a5ba79d3d9.png)
 
